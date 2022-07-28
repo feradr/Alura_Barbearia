@@ -1,0 +1,55 @@
+body {
+
+ }
+
+em strong {
+    color: #ff0000;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+/*  */
+/* Quando se inicia com "#" é uma ID */
+#banner{
+    width: 100%;
+}
+
+#missao {
+    text-align: center;
+    font-size: 20px;
+ }
+
+
+    /* Class */
+ /* Quando se inicia com "." é uma CLASS */
+
+ .titulo-principal {
+    padding-left: 20px;
+ }
+ 
+ .titulo-centralizado {
+    text-align: center;
+}
+
+ .principal {
+    background: #cccccc;
+    padding: 30px;
+ }
+
+ .beneficios {
+    background: #ffffff;
+    padding: 20px;
+ }
+
+ .itens {
+    font-style: italic;
+ }
+
+ .imagemBeneficios {
+    width: 50%;
+ }
