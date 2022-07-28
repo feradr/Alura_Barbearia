@@ -13,8 +13,7 @@ ul {
     margin-right: 15%;
 }
 
-/*  */
-/* Quando se inicia com "#" é uma ID */
+/*ID, Quando se inicia com "#" é uma ID */
 #banner{
     width: 100%;
 }
@@ -25,13 +24,13 @@ ul {
  }
 
 
-    /* Class */
- /* Quando se inicia com "." é uma CLASS */
+
+ /*Class, Quando se inicia com "." é uma CLASS */
 
  .titulo-principal {
     padding-left: 20px;
  }
- 
+
  .titulo-centralizado {
     text-align: center;
 }
