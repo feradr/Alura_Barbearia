@@ -1,8 +1,38 @@
+header {
+   background: #bbbbbb;
+   padding: 20px 0;
+}
+
+nav {
+   position: absolute;
+   top: 110px;
+   right: 0px;
+}
+
+nav li {
+   display: inline;
+   margin: 0 0 0 15px;
+}
+
+nav a {
+   text-transform: uppercase;
+   color: #000000;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+}
+
+footer {
+   text-align: center;
+   background: url("../midia/bg.jpg");
+   padding: 30px 0;
+}
+
 em strong {
     color: #ff0000;
 }
 
-ul {
+main ul {
     display: inline-block;
     vertical-align: top;
     width: 20%;
@@ -19,16 +49,21 @@ ul {
     font-size: 20px;
  }
 
-
-
  /*Class, Quando se inicia com "." é uma CLASS */
+ .caixa {
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
+}
 
- .titulo-principal {
+ /* .titulo-principal {
     padding-left: 20px;
- }
+ } */
 
  .titulo-centralizado {
     text-align: center;
+    font-size: 35px;
+    padding: 30px 20px;
 }
 
  .principal {
@@ -48,3 +83,9 @@ ul {
  .imagemBeneficios {
     width: 50%;
  }
+
+ .copyright {
+   color: #ffffff;
+   font-size: 13px;
+   margin: 20px 0 0 0;
+}
