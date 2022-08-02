@@ -1,0 +1,70 @@
+header {
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+ 
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+main {
+    width: 940px;;
+    margin: 0 auto;
+}
+
+form {
+    margin: 60px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+
+
+footer {
+    text-align: center;
+    background: url("../midia/bg.jpg");
+    padding: 30px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px 0;
+    border-radius: 3px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    /* padding: 10 0 10 0; */
+    margin: 20px 0;
+}
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0 0;
+}
