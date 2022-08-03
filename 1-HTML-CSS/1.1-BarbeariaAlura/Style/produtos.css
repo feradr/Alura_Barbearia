@@ -1,5 +1,5 @@
 header {
-    background: #bbbbbb;
+    background: linear-gradient(45deg, white, grey);
     padding: 20px 0;
 }
 
@@ -100,4 +100,25 @@ footer {
     color: #ffffff;
     font-size: 13px;
     margin: 20px 0 0 0;
+}
+
+@media screen and (max-width: 480px) {
+
+    h1 {
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .caixa, .principal, .produtos {
+        width: auto;
+        margin: 1rem;
+    }
+
+    .produtos li {
+        width: auto;
+        margin: 3rem;
+    }
 }

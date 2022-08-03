@@ -1,5 +1,5 @@
 header {
-    background: #bbbbbb;
+    background: linear-gradient(45deg, white, grey);
     padding: 20px 0;
 }
 
@@ -108,4 +108,35 @@ footer {
     color: #ffffff;
     font-size: 13px;
     margin: 20px 0 0 0;
+}
+
+@media screen and (max-width: 480px) {
+   
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    main {
+        width: auto;
+        margin: 1rem;
+    }
+    form input {
+        width: 90%;
+    }
+
+    .caixa, .principal  {
+        width: auto;
+        margin: 1rem;
+    }
+
+    .lista-beneficios, .imagemBeneficios, .checkbox {
+        width: 90%;
+        margin: 1rem;
+    }
+
+
 }
