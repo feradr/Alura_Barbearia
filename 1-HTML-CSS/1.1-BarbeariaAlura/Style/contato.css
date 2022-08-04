@@ -1,0 +1,142 @@
+header {
+    background: linear-gradient(45deg, white, grey);
+    padding: 20px 0;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+ 
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+main {
+    width: 940px;;
+    margin: 0 auto;
+}
+
+form {
+    margin: 60px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+th {
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("../midia/bg.jpg");
+    padding: 30px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px 0;
+    border-radius: 3px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    /* padding: 10 0 10 0; */
+    margin: 20px 0;
+}
+
+.enviar {
+    padding: 15px;
+    background: grey;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+    transition: 1s background;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.enviar:hover {
+    background: #c78c19;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0 0;
+}
+
+@media screen and (max-width: 480px) {
+   
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    main {
+        width: auto;
+        margin: 1rem;
+    }
+    form input {
+        width: 90%;
+    }
+
+    .caixa, .principal  {
+        width: auto;
+        margin: 1rem;
+    }
+
+    .lista-beneficios, .imagemBeneficios, .checkbox {
+        width: 90%;
+        margin: 1rem;
+    }
+
+
+}
