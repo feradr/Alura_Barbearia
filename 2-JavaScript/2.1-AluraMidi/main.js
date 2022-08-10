@@ -15,7 +15,7 @@ while (contador < listaDeTeclas.length) {
     //Abaixo uma Template String em JS
     const idAudio = `#som_${instrumento}`;
 
-    console.log(idAudio);
+   // console.log(idAudio);
 
     tecla.onclick = function () {
         tocaSom(idAudio);
@@ -23,7 +23,7 @@ while (contador < listaDeTeclas.length) {
 
     contador = contador + 1;
 
-    console.log(contador);
+   // console.log(contador);
 }
 
 // Abaixo Codigo Antigo -------------------------
