@@ -1,15 +1,18 @@
 ﻿using System;
 using System.Security.Cryptography.X509Certificates;
 
+#region Class Pessoa
 public class Pessoa
 {
     public string Nome { get; set; }
     public int Idade { get; set; }
 }
+#endregion
+
 class Programa { 
     static void Main(string[] args)
     {
-
+        #region Modulo Alura
         Console.WriteLine("Executando o projeto 07 - Condicionais \n");
 
         int idadeJoão = 16;
@@ -22,9 +25,11 @@ class Programa {
             Console.WriteLine("Não Pode Entrar! \n");
         }
 
-
         Console.WriteLine("Executando o projeto 07 - Condicionais ForEatch \n");
+        #endregion
 
+        #region Indo Alem do Modulo
+        //Criando Pessoas na Clas para aplicar em um Foreach entrando como Lista
         List<Pessoa> pessoas = new List<Pessoa>()
         {
             new Pessoa() { Nome = "João", Idade = 18 },
@@ -37,7 +42,6 @@ class Programa {
             if (pessoa.Idade >= 18)
             {
                 Console.WriteLine(pessoa.Nome + " Pode Entrar! \n" ); 
-           
             }
             else
             {
@@ -47,7 +51,6 @@ class Programa {
 
         Console.WriteLine("Tecle Enter para fechar... ");
         Console.ReadLine();
+        #endregion
     }
-
-
 }
